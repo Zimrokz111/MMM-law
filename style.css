@@ -1,0 +1,391 @@
+/*
+Theme Name : MMA LAW
+Theme URI  : http://sitename.com/
+Description: This is a -- website
+Author Name: Nishan Mazumder
+Author URI : http://nishanmazumder.com/
+Tags       : website, law
+Version    : 1.0.0
+*/
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+*{
+	padding:0px;
+	margin:0px;
+}
+body{
+	margin:0px auto;
+	height:auto;
+	font-family:'Open Sans', sans-serif !important;
+}
+ul li {
+	list-style-type:none;
+}
+a{
+	text-decoration:none;
+}
+a:hover{
+	text-decoration:none;
+}
+h1{
+	color: #0092C5;
+	text-shadow: 1px 1px 2px #000;
+	font-weight: bold;
+	padding-bottom:10px;
+}
+h4{
+	color: #0092C5;
+	text-shadow: .5px .5px .5px #000;
+	font-weight: bold;
+}
+/* .nicescroll-rails{
+	display:none;
+} */
+/*********************
+	Header Section
+**********************/
+header{
+	background:#DFDFDF;
+}
+.top-nav-icon>li>a{
+	padding-left:2px !important;
+	padding-right:2px !important;
+}
+.top-nav-icon>li>a>i{
+	color: #C3C6CC;
+	font-size: 22px;
+	text-shadow: 1px 1px 1px #fff;
+}
+.top-nav-icon>li>a>i:hover{
+	color: #0092C5;
+}
+.top-nav-icon>li>a:hover{
+	background:transparent;
+}
+.call-us{
+	padding-left: 15px !important;
+	padding-right: 25px !important;
+}
+.call-us>a{
+	font-size: 28px !important;
+	font-weight: bold;
+	text-shadow: .5px .5px 3px #000;
+}
+.logo{
+	width:80%;
+}
+
+/*********************
+	Nav Section
+**********************/
+.navbar{
+	background: transparent !important;
+	border: none;
+}
+.main-nav{
+	padding-top: 20px;
+}
+.main-nav>li>a{
+	color:#0092C5 !important;
+	font-size: 17px;
+	font-weight: bold;
+	transition: .7s;
+	border-right:0px !important;
+	padding-top: 0px !important;
+	padding-bottom: 0px !important;
+}
+.main-nav>li>a:last-child{
+	color:#0092C5 !important;
+	font-size: 17px;
+	font-weight: bold;
+	transition: .7s;
+	border-right:1px solid #0092C5 !important;
+	padding-top: 0px !important;
+	padding-bottom: 0px !important;
+}
+.main-nav>li>a:hover{
+	background: #939498 !important;
+	color: #fff !important;
+}
+
+.dropdown-menu>li>a{
+	color:#0092C5 !important;
+	font-size: 18px;
+	font-weight: bold;
+	transition: .7s;
+	padding-top: 0px !important;
+	padding-bottom: 0px !important;
+}
+.dropdown-menu>li>a:hover{
+	background: #939498 !important;
+	color: #fff !important;
+}
+
+/*********************
+	Slider Section
+**********************/
+.carousel-indicators{
+	display: block;
+	position:absolute;
+	top: 420px;
+}
+.carousel-indicators>.active{
+	background: #07536D !important;
+}
+.carousel-indicators>li{
+	background:#038EC5 !important;
+	border:none;
+	color: #fff;
+	padding: 10px !important;
+
+}
+.carousel-inner>.item>img{
+	border-bottom: 10px solid #DFDFDF;
+}
+.slide-down{
+	color: #DFDFDF;
+	position: absolute;
+	top:-22px;
+	left:625px;
+}
+/*********************
+	Content Section
+**********************/
+/*Greating Section*/
+.greating-content{
+	padding-top: 5%;
+	padding-bottom: 2%;
+}
+
+.greating-content>.container>.row>.col-md-12>h5{
+	line-height:20px;
+	text-shadow: .5px .5px .5px #000;
+}
+
+/*Post Slider*/
+#owl-demo .item{
+  margin: 10px;
+  background: #fff;
+  padding-bottom:40px;
+  box-shadow:2px 2px 5px #000;
+}
+#owl-demo .item img{
+  display: block;
+  width: 100%;
+  height: auto;
+  padding-bottom:10px;
+}
+.post-slider-section{
+	background: #DFDFDF;
+	padding-top: 0px;
+	padding-bottom: 40px;
+}
+
+.owl-demo>.item>h4,p{
+	padding-left: 10px;
+	padding-right: 10px;
+	text-shadow: 1px 1px .5px #000;
+	font-size: 13px;
+}
+
+/*Client Section*/
+.client-news-area{
+	padding-bottom:100px;
+	padding-top:40px;
+}
+.client-round>img{
+	width: 200px;
+	padding:15px;
+	transition:.7s;
+}
+.client-round>img:hover{
+	transform: scale(1.5);
+	z-index: 100;
+}
+.img1{
+	margin-left:280px;
+}
+.img2{
+	margin-left:25px;
+	float:left;
+}
+.img3{
+	margin-left:550px;
+}
+.img4{
+	margin-left:25px;
+	float:left;
+}
+.img5{
+	margin-left:550px;
+}
+.img6{
+	margin-left:300px;
+}
+
+/**News Section**/
+
+.news-area{
+	background: #DFDFDF;
+	padding: 10px 0px 10px 0px;
+	margin-top: 40px;
+	margin-left:5px;
+	box-shadow: 2px 2px 5px #000;
+}
+.news-area>.col-md-4{
+	padding-right:0px !important;
+}
+.news-area>.col-md-8>p{
+	padding-left:-10px !important;
+}
+
+/*********************
+	Footer Section
+**********************/
+footer{
+	background: #DFDFDF;
+	padding:20px 0px 10px 0px;
+}
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (max-width:1290px){
+
+}
+
+@media only screen and (max-width:1030px){
+.carousel-indicators{
+	top: 340px;
+}
+.slide-down{
+	left:495px;
+}
+.client-round{
+	margin-left:-60px !important;
+}
+.img1{
+	margin-left:300px;
+}
+.img2{
+	margin-left:25px;
+	float:left;
+}
+.img3{
+	margin-left:550px;
+}
+.img4{
+	margin-left:25px;
+	float:left;
+}
+.img5{
+	margin-left:550px;
+}
+.img6{
+	margin-left:300px;
+}
+}
+
+@media only screen and (max-width:780px){
+.main-nav>li>a{
+	font-size:14px !important;
+	padding-left:5px;
+	padding-right:5px;
+	margin-top:15px;
+}
+.carousel-indicators{
+	top: 265px;
+}
+.slide-down{
+	left:370px;
+}
+.greating-content{
+	margin-top:20px;
+}
+.client-round{
+	margin-left:0px !important;
+}
+.img1{
+	margin-left:290px;
+}
+.client-news-sec{
+	margin-bottom:30px;
+}
+.client-news-sec>h1{
+	text-align:center !important;
+}
+.news-area{
+	width: 98%;
+}
+}
+
+@media only screen and (max-width:650px){
+.logo{
+	width:60%;
+}
+.carousel-indicators{
+	top: 220px;
+}
+.slide-down{
+	left:305px;
+}
+.greating-content{
+	margin-top:20px;
+}
+.client-round{
+	margin-left:-60px !important;
+}
+.img1{
+	margin-left:290px;
+}
+.img2{
+	margin-left:60px;
+	float:left;
+}
+.img3{
+	margin-left:520px;
+}
+.img4{
+	margin-left:60px;
+	float:left;
+}
+.img5{
+	margin-left:520px;
+}
+.img6{
+	margin-left:290px;
+}
+}
+@media only screen and (max-width:490px){
+.carousel-indicators{
+	top: 170px;
+}
+.img1{
+	margin-left:135px;
+	width:60% !important;
+}
+.img2{
+	margin-left:135px;
+	width:60% !important;
+}
+.img3{
+	margin-left:135px;
+	width:60% !important;
+}
+.img4{
+	margin-left:135px;
+	width:60% !important;
+}
+.img5{
+	margin-left:135px;
+	width:60% !important;
+}
+.img6{
+	margin-left:135px;
+	width:60% !important;
+}
+}
